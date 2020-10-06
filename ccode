@@ -21,5 +21,4 @@ char pop()
 {
 return st[top--];
 }
-u
-k
+//1
