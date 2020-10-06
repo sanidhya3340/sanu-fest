@@ -21,4 +21,3 @@ char pop()
 {
 return st[top--];
 }
-//1
