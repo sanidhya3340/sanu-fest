@@ -22,3 +22,4 @@ char pop()
 return st[top--];
 }
 //c code
+//hacktober fest
