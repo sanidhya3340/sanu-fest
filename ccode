@@ -1,23 +1,20 @@
-if(a[i]=='}'&&(t=='('||t=='['))
-f=0;
-if(a[i]== ']'&&(t=='{'||t=='('))
-f=0;
-}
-}
+#include<stdio.h>
+#include<conio.h>
+void main()
 {
-if(top >= 0)
-f=0;
-if(f==0)
-
-
-printf("Balanced\n");
-return 0;
-}
-void psh(char a)
+int m;
+printf("Enter a number");
+scanf("%d",&m);
+int c=0;
+for(int i=0;i<=m;i++)
 {
-st[++top]=a;
+if(m%i==0)
+c++;
+else
+continue;
 }
-char pop()
-{
-return st[top--];
+if(c>2}
+printf("Number is prime");
+else
+printf("Number is not prime");
 }
