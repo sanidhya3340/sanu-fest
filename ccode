@@ -18,3 +18,4 @@ printf("Number is prime");
 else
 printf("Number is not prime");
 }
+//SACHIN KIITU
